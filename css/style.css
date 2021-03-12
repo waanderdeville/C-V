@@ -1,0 +1,689 @@
+@font-face {
+    font-family:Raleway-Light;
+    src: url(../fonts/Raleway-Regular.otf);
+}
+
+@font-face {
+    font-family:Baskerville;
+    src: url(../fonts/Baskerville.ttf);
+}
+
+@font-face {
+    font-family:futura;
+    src: url(../fonts/Futura.ttf);
+}
+
+.hideme
+{
+    opacity:0;
+}
+
+body {
+    animation: fadein 1.5s;
+    -moz-animation: fadein 1.5s; /* Firefox */
+    -webkit-animation: fadein 1.5s; /* Safari and Chrome */
+    -o-animation: fadein 1.5s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+header{
+     display:flex;
+     height:90vh;
+     align-items:center;
+}
+
+h1{
+    color:#383838;
+    font-size:3.5em;
+    width:35%;
+    font-family: Raleway-Light;
+    text-align:right;
+}
+
+nav{
+    float:right;
+    width:25%;
+    margin-left:41%;
+}
+
+header section{
+    width:100%;
+}
+
+header li, #dotmenu li, #contact li{
+    width:100%;
+    border-radius: 0px 10px;
+    margin:3% 0% 3% 0%;
+    padding:10% 0 10% 0%;
+    background-color:black;
+    text-align:center;
+}
+
+#contact li{
+    float:left;
+    width:96%;
+    margin-top:10vh;
+    padding: 10% 2% 10% 2%;
+    color:white;
+}
+
+#contact ul{
+    margin:auto;
+    list-style-type: none;
+    width:20%;
+    padding:0;
+}
+
+header li a, header a li{
+    font-size:1em;
+    color:white;
+}
+
+aside{
+    float:left;
+    color:black;
+    height:10vh;
+    width:100%;
+}
+
+aside img{
+    display:block;
+    margin:1% auto 1% auto;;
+    width:2%;
+    -webkit-animation: zoom 1.5s;
+    animation: zoom 1.5s;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+    -webkit-transform: scale(8,8); 
+    transform: scale(8,8);
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    /* Add this so that your modal doesn't close after the animation completes */
+}
+
+aisde a{
+    display:block;
+}
+
+@-webkit-keyframes zoom {
+    100% {
+        -webkit-transform: scale(1.2,1.2); 
+    }
+}
+
+@keyframes zoom {
+    100% {
+        transform: scale(1.2,1.2); 
+    }
+}
+
+#over, #ervaring, #opleiding, #varia, #contact{
+    float:left;
+    min-height:90vh;
+    padding-top:5.5%;
+}
+
+header{
+    padding-bottom:0.1%;
+}
+
+.lightbox{
+display:none;}
+
+h2{
+    color:#383838;
+    text-align: center;
+    font-family: Baskerville, serif;
+    font-size:2.2em;
+    margin-bottom:3%;
+}
+
+p{
+    font-family:futura, sans-serif;
+    color:#383838;
+    text-align: center;
+    width:56%;
+    opacity:0.92;
+    font-size:0.92em;
+    line-height: 1.8em;;
+    margin:auto;
+    margin-bottom:5%;
+}
+
+span{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.periode, .wat, .waar, .extra{
+    margin-bottom:0;
+    padding-bottom: 0;
+}
+
+.periode{
+     font-style: italic;
+}
+
+.wat{
+    font-weight: bold;
+    opacity:1.0;
+    font-size:1.0em;
+}
+
+.extra{
+    font-size:0.81em;
+}
+
+#ervaring section{
+    float:left;
+    width:100%;
+    margin-bottom:2%;
+}
+
+#ervaring section article, #opleiding section article{
+    float:left;
+    margin-top:5%;
+    width:33.333333333%;
+}
+
+#opleiding section article{
+    width:50%;
+}
+
+article p{
+width:100%;
+}
+
+article img{
+    margin:1% auto 1% auto;
+    width:9%;
+    display:block;
+}
+
+#opleiding article img{
+    width:3%;
+}
+
+article img:hover{
+    -webkit-animation: bounce 0.3s infinite;
+    animation: bounce 0.3s infinite;
+    -webkit-transform: scale(0.8,0.8); 
+    transform: scale(0.8,0.8);
+}
+
+@-webkit-keyframes bounce {
+    100% {
+        -webkit-transform: scale(1,1); 
+    }
+}
+
+@keyframes bounce {
+    100% {
+        transform: scale(1,1); 
+    }
+}
+
+.margin-pijl{
+    margin-top:6%;
+}
+
+#opleiding{
+    width:100%;;
+}
+
+#opleiding article{
+    margin-bottom:4%;
+}
+
+#opleiding section .wat, #opleiding section .periode{
+    font-size:0.85em;
+}
+
+#varia, #contact{
+    width:100%;
+}
+
+#varia section{
+    width:50%;
+    float:left;
+}
+
+table{
+    color:#383838;
+    width:70%;
+    margin:0 15% 5% 15%;
+    font-family:futura;
+}
+
+th{
+    font-weight:bolder;
+    font-size:1.5em;
+    margin-bottom:15%;
+    width:100%;
+}
+
+tr{
+    display:flex;
+    width:100%;
+}
+
+td{
+    font-size:1em;
+    opacity:0.9;
+    flex:2;
+}
+
+.tr{
+    margin:0;
+    padding:0;
+    text-align: right;
+}
+
+.tc{
+    flex:1;
+    margin:0;
+    padding:0;
+    text-align: center;
+}
+
+#contact h2{
+    margin-bottom:0%;
+}
+
+#contact p{
+    line-height: 1.7em;
+    font-size:0.95em;
+}
+
+#contact{
+    min-height:76vh;
+    padding-top:5vh;
+}
+
+.rotate{
+    -ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+    transform: rotate(180deg);
+    margin-left:0;
+    margin-right:49%;
+}
+
+footer{
+    float:left;
+    width:100%;
+    height:18vh;
+}
+
+footer p{
+    margin-top:2%;
+    float:left;
+    width:100%;
+    margin-bottom: 2%;
+}
+
+#dotmenu{
+    position: fixed;
+    right:0;
+    margin-top:45vh;
+    font-family: futura;
+}
+
+#dotmenu ul, header ul{
+    list-style-type: none;
+    padding:0;
+}
+
+#dotmenu li{
+    margin:12px 50px;
+    border-radius: 50%;
+    width:12px;
+    height:12px;
+    padding:0%;
+    text-align: right;
+    color:#383838;
+}
+
+#dotmenu li a{
+    margin-top:-4px;
+    font-size:0.8em;
+    width:100px;
+    color:white;
+    float:right;
+    text-decoration: none;
+    padding-right:20px;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+#dotmenu li a:hover{
+    border:none;
+    color:black;
+    padding-right:25px;
+}
+
+#dotmenu .actief{
+    color:#383838 !important;
+}
+
+header nav li:hover, #contact li:hover{
+    transform: scale(1.05, 1.05);
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+header nav li{
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.lightbox section p, .lightbox section h2, .lightbox section h4{
+    text-align:left;
+    margin:0%;
+    width:100%;
+    font-family: futura, sans-serif;
+    color:#383838;
+}
+
+.lightbox h4, .lightbox h2{
+    font-weight:bold;
+    padding-top:20px;
+}
+
+.lightbox h2{
+    padding: 0;
+}
+
+.lightbox ul{
+    color:#383838;
+    float:left;
+    list-style-type:disc;
+    width:95%;
+    margin-left:20px;
+    margin-top:0%;
+    padding-left: 5%;
+}
+
+.tpopup{
+    padding-bottom:5%;
+    float:left;
+    width:100%;
+}
+
+.lightbox a{
+    text-decoration: underline;
+    color:#383838;
+    margin-right:10px;
+}
+
+.lightbox li, .lightbox p{
+    padding:0;
+    font-family: futura, sans-serif !important;
+    color:#383838;
+}
+
+.lightbox h4{
+    padding-top:3%;
+    width:80%;
+    float:left;
+}
+
+.dpopup{
+    float:left;
+    padding-bottom: 2%;
+}
+
+.lightbox figure{
+    float:left;
+    width:20%;
+    margin-right:5%;
+}
+
+.lightbox figure img{
+    width:100%;
+}
+
+.lightbox section{
+    float:left;
+    width:75%;
+}
+
+.lightbox p, ul, li{
+    line-height:18px;
+}
+
+.featherlight .featherlight-content{
+    min-width:35%;
+    max-width:50%;
+    min-height:20%;
+}
+
+.featherlight-content{
+    padding:3% !important;
+}
+
+#fl7 p {
+  overflow: hidden;
+  margin-top:0.5em;
+}
+
+.read-more {
+  display: none;
+}
+
+a {
+  color: #3ac;
+  transition: color 200ms ease-in;
+}
+
+a:hover {
+  color: #c33;
+}
+
+#fl7 span{
+    font-weight: normal !important;
+    font-size:1em;
+}
+
+h3{
+    width:31%;
+    margin:0 1% 0 1%;
+    font-size:1.1em;
+    float:left;
+    font-family:futura;
+    font-weight:600;
+    text-decoration: underline;
+}
+
+h3:hover{
+    cursor:pointer;
+}
+
+#test{
+    float:left;
+    margin-top:5% !important;
+    text-align:justify;
+    margin:0 1% 0 1%;
+}
+
+.actiefproject{
+    color:#c33;
+    -webkit-transition: all .2s ease-in;
+    -moz-transition: all .2s ease-in;
+    -ms-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+}
+
+#fl7 article{
+    display:none;
+}
+
+#voorlopig{
+    margin-left:16.666666%;
+}
+
+#blok{
+    display: flex;
+    justify-content: space-around;
+    width:100%;
+}
+
+/* Portrait and Landscape */
+
+@media screen and (max-width: 1270px){
+    #dotmenu{
+        display:none;
+    }
+}
+
+
+
+@media screen and (max-width: 710px){
+    #container{
+        width:90%;
+        margin:auto;
+    }
+    
+    #opleiding article img{
+        width:9%;
+    }
+    
+    #dotmenu{
+        display:none;
+    }
+    
+    header{
+        width:100%;
+        float:left;
+        display:inline-block;
+        height:100%;
+        min-height: 80vh;
+        padding-top:5.5%;
+    }
+
+    aside:first-of-type{
+        min-height: 20vh;
+    }
+    
+    h1{
+        margin-top:10%;
+        width:100%;
+        text-align: center;
+        float:left;
+    }
+    
+    nav{
+        float:left;
+        margin:0;
+        width:50%;
+        margin:0 25% 0 25%;
+    }
+    
+    li{
+        margin:8% 0 8% 0;
+        padding:7% 0 7% 0;
+    }
+    
+    aside{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height:15vh;
+    }
+
+    /* aside a {
+        display: flex;
+        justify-content: center;
+    } */
+    
+    aside img{
+        width: 100%;
+        max-width: 25px;
+        transform: unset;
+        -webkit-animation: none !important;
+        animation: none !important;
+    }
+    
+    .rotate{
+        align-items: flex-start;
+        padding-top:5%;
+    }
+    
+    table{
+        margin: 0 0 5% 0;
+        width:100%;
+    }
+    
+    #over p{
+       width:100%;
+       margin-left:0;
+       margin-right:0;
+    }
+    
+    #varia section {
+        margin-top:10%;
+    }
+    
+    #ervaring section article, #opleiding section article, #varia section{
+       width:100%;
+    }
+
+    .featherlight .featherlight-content{
+       max-width:90% !important;
+    }
+    
+    .featherlight .featherlight-content h2{
+        font-size:1.75em;
+    }
+    
+    h3{width:70%;}
+    
+    #voorlopig{
+        margin-left: 0;
+    }
+    
+    #contact li{
+        width:100%;
+    }
+    
+    #contact ul{
+        width:50%;
+    }
+}

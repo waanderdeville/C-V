@@ -1,0 +1,830 @@
+﻿
+<!DOCTYPE html >
+<html>
+	<head>
+    	<title>Portfolio website</title>
+        <link rel="stylesheet" type="text/css" href="css/reset.css"/>
+        <link rel="stylesheet" type="text/css" href="css/master.css"/>
+		<link type="text/css" rel="stylesheet" href="release/featherlight.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="portfolio, waander Devill&eacute;, waander, DevillĂŠ"/>
+        <meta name="description" content="Portfoliowebsite van DevillĂŠ Waander"/>
+        <meta name="author" content="Kobe Devillé"/>
+	</head>
+	<script type='text/javascript' src='css/jquery.js'></script>
+	<script>
+	$(function() {
+	  $('a[href*=#]:not([href=#])').click(function() {
+		if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+		  var target = $(this.hash);
+		  target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+		  if (target.length) {
+			$('html,body').animate({
+			  scrollTop: target.offset().top
+			}, 1000);
+			return false;
+		  }
+		}
+	  });
+	});
+	</script>
+	<body>
+			<div id="dotmenu" class="dotstyle dotstyle-fillup">
+				<ul>
+					<li><a class="home actief" href="#container">Home</a></li>
+					<li><a class="nover" href="#over">Over mij</a></li>
+					<li><a class="nervaring" href="#ervaring">Werkervaring</a></li>
+					<li><a class="nopleiding" href="#opleiding">Opleiding</a></li>
+					<li><a class="nvaria" href="#varia">Varia</a></li>
+					<li><a class="ncontact" href="#contact">Contact</a></li>
+				</ul>
+			</div>
+	
+			<div id="container">
+				<header id="header">
+					<h1 id="h1">Waander<br>Devill&eacute;</h1>
+					<section>
+					<nav>
+						<ul>
+							<a class="nover" href="#over"><li>Over mij</li></a>
+							<a class="nervaring" href="#ervaring"><li>Werkervaring</li></a>
+							<a class="nopleiding" href="#opleiding"><li>Opleiding</li></a>
+							<a class="nvaria" href="#varia"><li>Varia</li></a>
+							<a class="ncontact" href="#contact"><li>Contact</li></a>
+						</ul>
+					</nav>
+					</section>
+				</header>
+				<aside>
+					<a class="nover" href="#over"><img src="images/pijl.svg" alt="pijl"></a>
+				</aside>
+				
+				<div class="hideme" id="over">
+					<h2>Over mij</h2>
+					<p>
+						Architectuur, erfgoed en muziek hebben me altijd geboeid, maar ik verdiep me graag in allerlei. 
+						Redactie- en tekenwerk liggen me over het algemeen goed. Ik ga rationeel te werk maar ben creatief in het vinden van oplossingen. 
+						Kwaliteitsvol werk leveren vind ik belangrijk.
+					</p>
+					<p>
+						<span>Profiel en sociale vaardigheden</span><br>
+	Plichtsbewust en verantwoordelijk<br>
+	Zelfstandig werker, of teamspeler mits goede afspraken<br>
+	Oog voor detail en afwerking<br>
+	Gevoel voor taal<br>
+	Vermogen tot improvisatie<br>
+	 Praktisch en ruimtelijk inzicht, logisch denker<br>
+	Doorzetter, ook bij zwaarder werk<br>
+	Stressbestendig
+					</p>
+					<aside>
+						<a class="nervaring" href="#ervaring"><img src="images/pijl.svg" alt="pijl"></a>
+					</aside>
+				</div>
+				
+				<div class="hideme" id="ervaring">
+					<h2>Werkervaring</h2>
+					<section style="display: flex; justify-content: center;">
+						<article>
+							<p class="periode">Augustus 2018 - heden</p>
+							<p class="wat">Conservator</p>
+							<p class="waar">Museum aan de Stroom Antwerpen</p>
+							<a class="btn btn-default" href="#" data-featherlight="#fl1"><img src="images/push.png"></a>
+							<div class="lightbox" id="fl1">
+								<figure>
+									<img src="images/mas.png" alt="logo MAS">
+								</figure>
+								<section>
+									<div class="tpopup">
+										<h2>Conservator maritieme collectie</h2>
+										<p><a target="_blank" href="https://www.mas.be">www.mas.be</a><br></p>
+									</div>
+									<p class="dpopup">Museumconservator maritieme collectie vanaf 1830</p>
+									<h4>Taken:</h4>
+									<ul>
+										<li><p>beheer van binnen- en buitencollectie</p></li>
+										<li><p>inhoudelijk uitdenken van tentoonstellingen</p></li>
+										<li><p>verzorgen publieksmomenten</p></li>
+										<li><p>collectieresearch</p></li>
+										<li><p>volgen actualiteit museaal en varend erfgoed</p></li>
+									</ul>
+										<h4>Competenties:</h4>
+									<ul>
+										<li><p>kennis collectie en geschiedenis</p></li>
+										<li><p>netwerken</p></li>
+										<li><p>samenwerken</p></li>
+										<li><p>opmaken subsidiedossiers</p></li>
+										<li><p>kennis van het veld</p></li>
+										<li><p>technische kennis vaartuigen</p></li>
+									</ul>
+										<h4>Periode:</h4>
+									<ul>
+										<li><p>augustus 2018 - heden</p></li>
+									</ul>
+								</section>
+							</div>
+						</article>
+					</section>
+					<section>
+						<article>
+							<p class="periode">Augustus 2017 - Juli 2018</p>
+							<p class="wat">Projectmedewerker collectiewaardering</p>
+							<p class="waar">Museum aan de Stroom Antwerpen</p>
+							<a class="btn btn-default" href="#" data-featherlight="#fl2"><img src="images/push.png"></a>
+							<div class="lightbox" id="fl2">
+								<figure>
+									<img src="images/mas.png" alt="logo MAS">
+								</figure>
+								<section>
+									<div class="tpopup">
+										<h2>Projectmedewerker</h2>
+										<p><a target="_blank" href="https://www.mas.be">www.mas.be</a><br></p>
+									</div>
+									<p class="dpopup">Projectmederwerker waarderingstraject vaartuigencollectie van het MAS</p>
+									<h4>Taken:</h4>
+									<ul>
+										<li><p>in kaart brengen erfgoedwaarde vaartuigencollectie</p></li>
+										<li><p>opzetten van een gedragen visie op collectiewaarde</p></li>
+									</ul>
+										<h4>Competenties:</h4>
+									<ul>
+										<li><p>kennis van het veld</p></li>
+										<li><p>netwerken</p></li>
+										<li><p>objectiviteit</p></li>
+										<li><p>rapportering</p></li>
+									</ul>
+										<h4>Periode:</h4>
+									<ul>
+										<li><p>augustus 2017 - juli 2018</p></li>
+									</ul>
+								</section>
+							</div>
+						</article>
+						<article>
+							<p class="periode">2010 - heden</p>
+							<p class="wat">Muzikant [freelance]</p>
+							<p class="waar">&infin;</p>
+							<a class="btn btn-default" href="#" data-featherlight="#fl3"><img src="images/push.png"></a>
+							<div class="lightbox" id="fl3">
+								<figure>
+									<img src="images/muzikant.png" alt="logo bass">
+								</figure>
+								<section>
+									<div class="tpopup">
+										<h2>Freelance muzikant</h2>
+									</div>
+									<p class="dpopup">Bassist en multi-instrumentalist bij uiteenlopende actieve muziekprojecten</p>
+									<h4>Lopende projecten:</h4>
+									<ul>
+										<li><p><a target="_blank" href="https://www.facebook.com/RadioSpandex/">Radio Spandex</a></p></li>
+										<li><p><a target="_blank" href="http://vi.be/amywinehousetributeband">Amy Winehouse Tribute Band</a></p></li>
+										<li><p>Wabi Sabi</p></li>
+									</ul>
+										<h4>Competenties:</h4>
+									<ul>
+										<li><p>publiekswerking</p></li>
+										<li><p>groepsmanagement</p></li>
+										<li><p>imagogericht denken</p></li>
+										<li><p>creativiteit</p></li>
+										<li><p>flexibiliteit</p></li>
+									</ul>
+										<h4>Periode:</h4>
+									<ul>
+										<li><p>2010 - heden</p></li>
+									</ul>
+								</section>
+								</div>
+							</article>
+							<article>
+							<p class="periode">februari 2017 - maart 2018</p>
+							<p class="wat">Redacteur [vrijwillig]</p>
+							<p class="waar">Gentcement.be</p>
+							<a class="btn btn-default" href="#" data-featherlight="#fl4"><img src="images/push.png"></a>
+							<div class="lightbox" id="fl4">
+								<figure>
+									<img src="images/gentcement.png" alt="logo GentCement">
+								</figure>
+								<section>
+									<div class="tpopup">
+										<h2>Redacteur</h2>
+										<p><a target="_blank" href="https://www.gentcement.be">www.gentcement.be</a><br></p>
+									</div>
+									<p class="dpopup">Redactielied bij architecturaal actualiteitsplatform GentCement</p>
+									<h4>Taken:</h4>
+									<ul>
+										<li><p>volgen lokale architectuuractua</p></li>
+										<li><p>afnemen van interviews</p></li>
+										<li><p>schrijven en redigeren van artikels</a></p></li>
+									</ul>
+										<h4>Competenties:</h4>
+									<ul>
+										<li><p>schrijven</p></li>
+										<li><p>netwerken</p></li>
+										<li><p>deadlines halen</p></li>
+										<li><p>basic back-end websitebeheer</p></li>
+									</ul>
+										<h4>Periode:</h4>
+									<ul>
+										<li><p>februari 2017 - maart 2018 - heden [non-actief]</p></li>
+									</ul>
+								</section>
+							</div>
+						</article>
+					</section>
+					<section>
+						<article>
+							<p class="periode">maart 2015</p>
+							<p class="wat">Erfgoedonderzoeker [stage]</p>
+							<p class="waar">Vlaams Agentschap voor onroerend Erfgoed</p>
+							<a class="btn btn-default" href="#" data-featherlight="#fl5"><img src="images/push.png"></a>
+							<div class="lightbox" id="fl5">
+								<figure>
+									<img src="images/erfgoedonderzoek.png" alt="logo agentschap onroerend erfgoed">
+								</figure>
+								<section>
+									<div class="tpopup">
+										<h2>Erfgoedonderzoeker</h2>
+										<p><a target="_blank" href="https://www.onroerenderfgoed.be/">www.onroerenderfgoed.be</a><br></p>
+									</div>
+										<p class="dpopup">Stagiair bij de beschermingsdatabank van het Vlaamse Agentschap voor Onroerend Erfgoed</p>
+									</p>
+									<h4>Taken:</h4>
+									<ul>
+										<li><p>Beschrijven en documenteren van beschermd onroerend erfgoed in Vlaanderen</p></li>
+										<li><p>Data-invoer ter opbouw van de Vlaamse inventaris voor onroerend erfgoed</p></li>
+										<li><p>Archiefonderzoek</p></li>
+										<li><p>Veldwerk: actualiseren data op locatie</p></li>
+									</ul>
+										<h4>Competenties:</h4>
+									<ul>
+										<li><p>kennis van lexicon, decreten, software,...</p></li>
+										<li><p>time management</p></li>
+										<li><p>nauwgezet werken</p></li>
+										<li><p>werken met ArcGIS, CRAB, Excel,...</p></li>
+									</ul>
+										<h4>Periode:</h4>
+									<ul>
+										<li><p>maart 2015, voltijds</p></li>
+										<li><p>in het kader van de bacheloropleiding kunstwetenschappen</p></li>
+									</ul>
+								</section>
+							</div>
+						</article>
+						<article>
+							<p class="periode">februari 2017 - april 2017</p>
+							<p class="wat"> Inventarismedewerker [vrijwillig] </p>
+							<p class="waar">Dienst Erfgoed – Provincie O-Vl.</p>
+							<!--<a class="btn btn-default" href="#" data-featherlight="#fl1"><img src="images/push.png"></a>
+							<div class="lightbox" id="fl1">
+								<figure>
+									<img src="images/tekstannotator1.png" alt="logo Zeticon">
+									<img src="images/tekstannotator2.png" alt="logo iMinds">
+								</figure>
+								<section>
+									<div class="tpopup">
+										<h2>Tekstannotator</h2>
+										<p><a target="_blank" href="http://www.zeticon.be/">www.zeticon.be</a><a href="https://www.iminds.be/">www.iminds.be</a><br></p>
+									</div>
+									<p class="dpopup">Tekstanalyse voor ICT-onderzoeksinstituut iMinds en UGent-spinoff Zeticon, in kader van text mining & machine learning-projecten voor media-applicaties</p>
+									<h4>Taken:</h4>
+									<ul>
+										<li><p>en en annoteren van (franstalige) artikels met behulp van specifieke software</p></li>
+									</ul>
+										<h4>Competenties:</h4>
+									<ul>
+										<li><p>zelfstandig werken en plannen</p></li>
+										<li><p>langdurig concentreren</p></li>
+										<li><p>anderstaligheid</p></li>
+										<li><p>efficiëntie</p></li>
+									</ul>
+										<h4>Periode:</h4>
+									<ul>
+										<li><p>mei 2015 - oktober 2016</p></li>
+									</ul>
+								</section>
+							</div>-->
+						</article>
+						<article>
+							<p class="periode">mei 2015 - oktober 2016</p>
+							<p class="wat">Tekstannotator [freelance]</p>
+							<p class="waar">iMinds, Zeticon</p>
+							<a class="btn btn-default" href="#" data-featherlight="#fl6"><img src="images/push.png"></a>
+							<div class="lightbox" id="fl6">
+								<figure>
+									<img src="images/tekstannotator1.png" alt="logo Zeticon">
+									<img src="images/tekstannotator2.png" alt="logo iMinds">
+								</figure>
+								<section>
+									<div class="tpopup">
+										<h2>Tekstannotator</h2>
+										<p><a target="_blank" href="http://www.zeticon.be/">www.zeticon.be</a><a href="https://www.iminds.be/">www.iminds.be</a><br></p>
+									</div>
+									<p class="dpopup">Tekstanalyse voor ICT-onderzoeksinstituut iMinds en UGent-spinoff Zeticon, in kader van text mining & machine learning-projecten voor media-applicaties</p>
+									<h4>Taken:</h4>
+									<ul>
+										<li><p>Analyse en annotatie van (franstalige) artikels met behulp van specifieke software</p></li>
+									</ul>
+										<h4>Competenties:</h4>
+									<ul>
+										<li><p>zelfstandig werken en plannen</p></li>
+										<li><p>langdurig concentreren</p></li>
+										<li><p>anderstaligheid</p></li>
+										<li><p>efficiëntie</p></li>
+									</ul>
+										<h4>Periode:</h4>
+									<ul>
+										<li><p>mei 2015 - oktober 2016</p></li>
+									</ul>
+								</section>
+							</div>
+						</article>
+					</section>
+					<section>
+						<article>
+							<p class="periode">September 2014 - juli 2015</p>
+							<p class="wat">Organisator van muziekevenementen</p>
+							<p class="waar">Binair01</p>
+							<a class="btn btn-default" href="#" data-featherlight="#fl7"><img src="images/push.png"></a>
+							<div class="lightbox" id="fl7">
+								<figure>
+									<img src="images/muziek.png" alt="logo binair01 onderzoek">
+								</figure>
+								<section>
+									<div class="tpopup">
+										<h2>Organisator van muziekevenementen</h2>
+										<p><a target="_blank" href="http://www.binair01.be/">www.binair01.be</a><br></p>
+									</div>
+										<p class="dpopup">Kernteamlid bij alternatief muziekplatform Binair 01</p>
+									</p>
+									<h4>Taken:</h4>
+									<ul>
+										<li><p>muziekprogrammatie</p></li>
+										<li><p>promotieverantwoordelijke</p></li>
+										<li><p>barverantwoordelijke</p></li>
+										<li><p>delegeren van vrijwilligers</p></li>
+										<li><p>onthalen van artiesten</p></li>
+									</ul>
+										<h4>Competenties:</h4>
+									<ul>
+										<li><p>verantwoordelijkheid opnemen in team</p></li>
+										<li><p>leidinggeven</p></li>
+										<li><p>deadlines stellen en halen</p></li>
+										<li><p>innovatief en imagogericht denken</p></li>
+									</ul>
+										<h4>Periode:</h4>
+									<ul>
+										<li><p>september 2014 - juli 2015</p></li>
+									</ul>
+								</section>
+							</div>
+						</article>
+						<article>
+							<p class="periode">april 2016 - augustus 2018
+							<p class="wat">Fietskoerier</p>
+							<p class="waar">Cargo V&eacute;lo</p>
+							<a class="btn btn-default" href="#" data-featherlight="#fl8"><img src="images/push.png"></a>
+							<div class="lightbox" id="fl8">
+								<figure>
+									<img src="images/fiets.png" alt="logo cargo vélo">
+								</figure>
+								<section>
+									<div class="tpopup">
+										<h2>Fietskoerier</h2>
+										<p><a target="_blank" href="http://www.cargovelo.be/">www.cargovelo.be</a><br></p>
+									</div>
+									<p class="dpopup">#allesopdevelo - koerier bij de Gentse fietskoerierdienst</p>
+									<h4>Taken:</h4>
+									<ul>
+										<li><p>snel en veilig leveren van diverse producten in Gent en omgeving (drukwerk, bloemen, medische stalen,...)</p></li>
+										<li><p>uitdenken van rit- en tijdschema's</p></li>
+									</ul>
+										<h4>Competenties:</h4>
+									<ul>
+										<li><p>time-management</p></li>
+										<li><p>stiptheid</p></li>
+										<li><p>flexibiliteit</p></li>
+										<li><p>efficiëntie</p></li>
+										<li><p>ruimtelijk denkvermogen</p></li>
+										<li><p>klantvriendelijkheid</p></li>
+										<li><p>presteren onder tijdsdruk - fysieke druk (+100km/dag) - wisselende weersomstandigheden</p></li>
+									</ul>
+										<h4>Periode:</h4>
+									<ul>
+										<li><p>april 2016 - augustus 2018</p></li>
+										<li><p>gestart als bijverdienste tijdens het schrijven van mijn thesis</p></li>
+									</ul>
+								</section>
+							</div>
+						</article>
+						<article>
+							<p class="periode">2014 - 2019</p>
+							<p class="wat">Onthaalmedewerker [vrijwillig]</p>
+							<p class="waar">Nederlands Toneel Gent</p>
+							<a class="btn btn-default" href="#" data-featherlight="#fl9"><img src="images/push.png"></a>
+							<div class="lightbox" id="fl9">
+								<figure>
+									<img src="images/ntgent.png" alt="logo ntgent">
+								</figure>
+								<section>
+									<div class="tpopup">
+										<h2>Onthaalmedewerker</h2>
+										<p><a target="_blank" href="https://www.ntgent.be/nl">www.ntgent.be</a><br></p>
+									</div>
+									<p class="dpopup">Vrijwillig onthaalmedewerker bij het Gentse toneelhuis</p>
+									<h4>Taken:</h4>
+									<ul>
+										<li><p>onthalen en begeleiden van de gasten</p></li>
+										<li><p>ticketcontrole</p></li>
+										<li><p>zaalpermanentie</p></li>
+									</ul>
+										<h4>Competenties:</h4>
+									<ul>
+										<li><p>dienstvaardigheid</p></li>
+										<li><p>discretie</p></li>
+										<li><p>kennis van cast en programmatie</p></li>
+									</ul>
+										<h4>Periode:</h4>
+									<ul>
+										<li><p>april 2014 - januari 2019</p></li>
+									</ul>
+								</section>
+							</div>
+						</article>							
+						<aside class="margin-pijl">
+							<a class="nopleiding" href="#opleiding"><img src="images/pijl.svg" alt="pijl"></a>
+						</aside>
+					</section>
+				</div>
+				<div class="hideme" id="opleiding">
+					<h2>Opleiding</h2>
+					<article>
+						<p class="periode">2012 - 2016</p>
+						<p class="wat">Bachelor & Master in de Kunstwetenschappen<br> Beeldende kunst en architectuur</p>
+						<p class="extra">Magna cum laude</p>
+						<article>
+							<a class="btn btn-default" href="#" data-featherlight="#fl11"><img src="images/push.png"></a>
+							<div class="lightbox" id="fl11">
+								<figure>
+									<img src="images/ugent.svg" alt="logo ugent">
+								</figure>
+								<section>
+									<div class="tpopup">
+										<h2>Master kunstwetenschappen: voornaamste onderzoeksprojecten</h2>
+									</div>
+					
+										<h3 id="project1">De spits: een typisch Belgisch binnenschip bekeken van binnenuit ></h3>
+										<h3 id="project2">België toont: De internationale tentoonstelling van Turijn 1902 ></h3>
+										<h3 id="project3">De familie Vaxelaire in Brussel ></h3>
+										<p id="test"></p>
+										<script>
+											$("#project1").click(
+												function () {
+													$("#fl11 #test").html('');
+													$("h3").removeClass('actiefproject');
+													$(this).addClass('actiefproject');
+													$("#fl11 #test").html('<i>Decennialang bepaalden spitsen het zicht op de Belgische binnenwateren. Vandaag liggen ze met' +
+'tientallen in de binnensteden aangemeerd, op pensioen net als de schipper, of herbestemd tot ' +
+'woonschip. De originele woning van de schipper achteraan het schip was niet zelden rijkelijk ' +
+'aangekleed: enkel vierkante meters luxe, als contrast met de vaak harde werk- en ' +
+'leefomstandigheden aan boord. </i><br><br>' +
+'In dit onderzoek is de &#39;spits&#39; onder de loep genomen. Afgezien van een geschiedenis van het' +
+'scheepstype is de opdrachtgeving voor en de vormgeving van de schipperswoning doorheen de' +
+'hoogperiode gedocumenteerd. Inherent verbonden met de vormgeving zijn de sociologische' +
+'aspecten van het leven op een binnenschip; deze vormen in deze scriptie dan ook een hoofdstuk an' +
+'sich. In het kader van de recent opgerichte Inventaris van het Varend Erfgoed zijn tot slot de' +
+'betekenis en waarde van het scheepstype in het huidige erfgoedlandschap nagegaan, en de' +
+'recentste wijzigingen in het Onroerend Erfgoeddecreet toegelicht.<br><br>' +
+'Naast een uitgebreide literatuurstudie (BE-FR-NL-D) ter oriëntatie steunde het onderzoek op drie' +
+'onderzoeksmethodes. Een schat aan informatie werd gehaald uit interviews met internen uit de' +
+'wereld van het varend erfgoed, voorzitter van scheepsmusea, een havenarts, scheepsrestaurateur,' +
+'en uiteraard verschillende binnenschippers (op rust). Schepen over het hele land werden bezocht,' +
+'net als verschillende archieven. Twee verzamelingen dienen hier met naam genoemd: uit de' +
+'archieven van de scheepswerven van Baasrode en Temse, in België de best bewaarde, werd geput' +
+'voor statistisch bewijs en illustratief planmateriaal. Ook fotomateriaal allerhande was een grote bron' +
+'waaraan de getuigenissen gestaafd konden worden.<br><br>' +
+'Door een materiaaltechnische en stijl-/periodegebonden analyse van de (bezochte) interieurs kon' +
+'een beknopte inventarisatie en documentatie van historisch waardevolle interieurs van spitsen' +
+'worden opgemaakt. Elke scheepswerf had enkele eigen standaardplannen voor de bouw van een' +
+'spits. Een schipper kon hieruit kiezen naargelang smaak en budget, en eventueel eigen toevoegingen' +
+'doen. De interieurvormgeving was nooit opzichtig en eerder conservatief, met meest opvallende' +
+'invloeden uit de art nouveau en art déco. De stijlevolutie liep goeddeels gelijk met die aan land. Op' +
+'scheepswerven werden immers lokale ambachtslui tewerkgesteld, die niet enkel werk leverden voor' +
+'scheepsinterieurs.<br>' +
+'Zonder twijfel is de spits een belangrijk deel van ons industrieel erfgoed. Met dit onderzoek is' +
+'getracht het gebrek aan geschreven bronnen en de kennis buiten de schipperswereld te' +
+'ondervangen. In de Inventaris Onroerend Erfgoed zijn een 120-tal schepen opgenomen, waarvan' +
+'acht spitsen. Deze acht vormen een vrij compleet overzicht van de evolutie van het scheepstype.<br><br>' +
+'Bekijk online: <a target="_blank" href=" http://lib.ugent.be/fulltxt/RUG01/002/303/908/RUG01-002303908_2016_0001_AC.pdf">pdf versie</a>');
+												}
+											  );
+											
+											$("#project2").click(
+												function () {
+													$("#fl11 #test").html('');
+													$("h3").removeClass('actiefproject');
+													$(this).addClass('actiefproject');
+													$("#fl11 #test").html('In 1902 had de plaats Internationale Tentoonstelling van Moderne Decoratieve Kunsten in Turijn. Op de Belgische afdeling vielen onder andere de meubelensembles door Georges Hobé en Antoine Pompe op. Dit ensemble is nog deels bewaard, ten dele in de collectie van het Gentse Designmuseum. <br/>' +
+'Het onderzoek bestond uit een analyse van (inter-) nationale stijlinvloeden, met de Arts & Crafts en de Weense Sezessionbeweging als meest opvallende inspiratie. Gekoppeld aan dit onderzoek werd een concept ontwikkeld voor een dossiertentoonstelling in het Designmuseum. Hiertoe werden objectfiches opgesteld van de te exposeren stukken. De stukken uit het Designmuseum werden aangevuld met objecten uit het Jubelparkmuseum (KMKG) en het Hortamuseum, en met beelden uit de AAM. Er werd een aanzet gegeven voor de (typo-)grafische vormgeving. De concrete ruimtelijke uitwerking werd gepresenteerd aan de hand van eigenhandig gemaakte 3D-renders.');
+																		 }
+											  );
+											
+											$("#project3").click(
+												function () {
+													$("#fl11 #test").html('');
+													$("h3").removeClass('actiefproject');
+													$(this).addClass('actiefproject');
+													$("#fl11 #test").html('Eind 2016, haast dertien jaar na aanvang van de werken, zijn de restauraties van de ondergrondse grafgalerijen van de Lakense begraafplaats bijna afgerond. Naar aanleiding hiervan werden enkele van de meest in het oog springende grafkapellen van het kerkhof aan een kunsthistorische analyse onderworpen. Een studie ter plaatse en het grondig doornemen van de briefwisselingen in het betreffende concessiedossier leverden de nodige informatie. ' +
+'De kapel van de handelaarsfamilie Vaxelaire is een rijkelijk uitgewerkte neogotische kapel. Die stijl was in het jaar van oprichting al eerder conservatief te noemen. Vandaag rusten onder de kapel nog steeds zeven familieleden. Hun verdiensten zijn af te lezen van de bewaarde marmeren epitafen. Het ontwerp en de uitvoering in de jaren &#39;20 kunnen worden toegeschreven aan (het atelier van) residerend beeldhouwer E. II Salu. De concessie- en de bouwaanvraag hadden flink wat voeten in de aarde, en getuige het uitgebreide briefverkeer bleven onderhoud en bestrijden van vochtinsijpeling een prioriteit tot aan de eeuwwissel. ' +
+'Een tweede deel van het onderzoek brengt de architecturale sporen van de familie Vaxelaire en het familiebedrijf "Au Bon Marché" in kaart, in de hoofdstad en daarbuiten. Naast het archief van de Lakense begraafplaats vormden de Brusselse Almanakken en oude krantartikels de voornaamste bron. Afgezien van de grafkapel zijn vooral het oude &#39;Au Bon March&eacute &#39;-winkelcomplex aan de Rogierplaats en de familiewoning op de Sterrenkundelaan nog stille getuigen van het familieverleden. <br/> <br/>' + 
+'Eigengemaakte posters ter illustratie van het onderzoek waren te zien op Open Monumentendag'+
+'2016 op de begraafplaats van Laken, met dank aan Epitaaf VZW. De VZW publiceerde het'+
+'onderzoeksartikel ook in haar nieuwsbrief. Zie <a target="_blank" href="http://www.epitaaf.org/tafofiel/">www.epitaaf.org/tafofiel/</a>');
+												}
+											  );
+										</script>
+								</section>
+							</div>
+						</article>
+					</article>
+					<article>
+						<p class="periode">2009 - 2012</p>
+						<p class="wat">Bachelor in de architectuur</p>
+						<p class="extra">150 credits</p>
+						<p class="waar">Sint Lucas Gent</p>
+					</article>
+					<article>
+						<p class="periode">2003 - 2009</p>
+						<p class="wat">ASO Latijn-Grieks</p>
+						<p class="waar">Heilig Hart College Halle</p><br>
+					</article>
+					<p class="wat">En verder:</p>
+					<section id="blok">
+						<article>
+							<p class="periode">1995 - 2010</p>
+							<p class="wat">Diverse muziekgraden</p>
+						</article>
+						<article>
+							<p class="periode">2003 - 2009</p>
+							<p class="wat">DKO Kunstacademie De Meiboom Halle</p>
+						</article>
+						<article>
+							<p class="periode">2018 - 2019</p>
+							<p class="wat">Opleiding tot imker</p>
+						</article>
+					</section>
+					<aside class="margin-pijl">
+						<a class="nvaria" href="#varia"><img src="images/pijl.svg" alt="pijl"></a>
+					</aside>
+				</div>
+				
+				<div class="hideme" id="varia">
+					<h2>Varia</h2>
+					<section>
+						<table>
+							<tr>
+								<th>Taal</th>
+							</tr>
+							<tr>
+								<td>Nederlands</td>
+								<td class="tc">C2</td>
+								<td class="tr">moedertaal</td>
+							</tr>
+							<tr>
+								<td>Engels</td>
+								<td class="tc">C1</td>
+								<td class="tr">goed</td>
+							</tr>
+							<tr>
+								<td>Frans</td>
+								<td class="tc">B2</td>
+								<td class="tr">goed</td>
+							</tr>
+							<tr>
+								<td>Duits</td>
+								<td class="tc">B1</td>
+								<td class="tr">goede basiskennis</td>
+							</tr>
+						</table>
+					</section>
+					<section>
+						<table>
+							<tr>
+								<th>Computerkennis</th>
+							</tr>
+							<tr>
+								<td>Word</td>
+								<td class="tr">goede beheersing</td>
+							</tr>
+							<tr>
+								<td>Excel</td>
+								<td class="tr">goede basis</td>
+							</tr>
+							<tr>
+								<td>Powerpoint</td>
+								<td class="tr">goede beheersing</td>
+							</tr>
+						</table>
+						<table>
+							<tr>
+								<td>AutoCAD 2D, plan</td>
+								<td class="tr">goede basis</td>
+							</tr>
+							<tr>
+								<td>AutoCAD 3D</td>
+								<td class="tr">goede basis</td>
+							</tr>
+							<tr>
+								<td>GIS</td>
+								<td class="tr">basis</td>
+							</tr>
+							<tr>
+								<td>Google Sketchup</td>
+								<td class="tr">goede beheersing</td>
+							</tr>
+							<tr>
+								<td>Adlib</td>
+								<td class="tr">goede basis</td>
+							</tr>
+							<tr>
+								<td>Photoshop</td>
+								<td class="tr">basis</td>
+							</tr>
+							<tr>
+								<td>Indesign</td>
+								<td class="tr">basis</td>
+							</tr>
+						</table>
+						<table>
+							<tr>
+								<td>Catalogi en digitale archieven</td>
+								<td class="tr">zeer bedreven</td>
+							</tr>
+							<tr>
+								<td>Sociale media</td>
+								<td class="tr">zeer bedreven</td>
+							</tr>
+							<tr>
+								<td>Blindtypen</td>
+								<td class="tr">snel en foutloos</td>
+							</tr>
+						</table>
+					</section>
+					<aside class="margin-pijl">
+						<a class="ncontact" href="#contact"><img src="images/pijl.svg" alt="pijl"></a>
+					</aside>
+				</div>
+				
+				<div class="hideme" id="contact">
+					<h2>Contact</h2>
+					<p>
+						+32 473 68 74 71<br>
+						<a href="mailto:waander_d@hotmail.com" target="_blank">waander_d@hotmail.com</a><br>
+						 <br>
+						Krevelstraat 18<br>
+						9000 Gent<br>
+						<br>
+						<a target="_blank" href="https://be.linkedin.com/in/waander-devill%C3%A9-900681b9"><img src="https://static.wixstatic.com/media/aa0402eb9ba2430d9d0620b59556efca.png/v1/fill/w_30,h_30,al_c,q_80,usm_0.66_1.00_0.01/aa0402eb9ba2430d9d0620b59556efca.png" alt="linkedin"></a>
+					</p>
+					<!-- download -->
+						<!-- <ul>
+							<a href="download/WaanderDevillé_CV.pdf" download="WaanderDevillé_CV"><li>PDF download</li></a>
+						</ul> -->
+				</div>
+				
+				<footer>
+					<aside class="rotate">
+						<a class="home" id="home" href="#container"><img src="images/pijl.svg" alt="pijl"></a>
+					</aside>
+					<p>&copy; Waander Devill&eacute; 2021</p>
+				</footer>
+					<script>
+						$(document).scroll(function() {
+							
+							if($( document ).scrollTop() >= $( "#header" ).offset().top && $( document ).scrollTop() < $( "#over" ).offset().top + 50) {
+								$('#dotmenu li a').removeClass('actief');
+								$('#dotmenu .nover').addClass('actief');
+							}
+							if($( document ).scrollTop() >= $( "#over" ).offset().top && $( document ).scrollTop() < $( "#ervaring" ).offset().top + 50) {
+								$('#dotmenu li a').removeClass('actief');
+								$('#dotmenu .nervaring').addClass('actief');
+							}
+							if($( document ).scrollTop() >= $( "#ervaring" ).offset().top && $( document ).scrollTop() < $( "#opleiding" ).offset().top + 50) {
+								$('#dotmenu li a').removeClass('actief');
+								$('#dotmenu .nopleiding').addClass('actief');
+							}
+							if($( document ).scrollTop() >= $( "#opleiding" ).offset().top && $( document ).scrollTop() < $( "#varia" ).offset().top + 50) {
+								$('#dotmenu li a').removeClass('actief');
+								$('#dotmenu .nvaria').addClass('actief');
+							}
+							if($( document ).scrollTop() >= $( "#varia" ).offset().top && $( document ).scrollTop() < $( "#contact" ).offset().top + 50) {
+								$('#dotmenu li a').removeClass('actief');
+								$('#dotmenu .ncontact').addClass('actief');
+							}
+							else if($( document ).scrollTop() <= $( "#h1" ).offset().top && $( document ).scrollTop() > $( "#header" ).offset().top - 50) {
+								$('#dotmenu li a').removeClass('actief');
+								$('#dotmenu .home').addClass('actief');
+							}
+						});
+
+					</script>
+					
+					<script src="release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+					<script>
+						$('li a').on('click', function(){
+							$('li a').removeClass('actief');
+							$(this).addClass('actief');
+						});
+						$('.nover').on('click', function(){
+							$('#dotmenu li a').removeClass('actief');
+							$('#dotmenu .nover').addClass('actief');
+						});
+						$('.nervaring').on('click', function(){
+							$('#dotmenu li a').removeClass('actief');
+							$('#dotmenu .nervaring').addClass('actief');
+						});
+						$('.nopleiding').on('click', function(){
+							$('#dotmenu li a').removeClass('actief');
+							$('#dotmenu .nopleiding').addClass('actief');
+						});
+						$('.nvaria').on('click', function(){
+							$('#dotmenu li a').removeClass('actief');
+							$('#dotmenu .nvaria').addClass('actief');
+						});
+						$('.ncontact').on('click', function(){
+							$('#dotmenu li a').removeClass('actief');
+							$('#dotmenu .ncontact').addClass('actief');
+						});
+						$('.home').on('click', function(){
+							$('#dotmenu li a').removeClass('actief');
+							$('#dotmenu .home').addClass('actief');
+						});
+					</script>
+					
+					<script>
+											
+					$(document).ready(function(){
+					$('#fl7 .more').each(function(){
+						var trimLength = 200;
+						var trimMargin = 1.2; // don't trim just a couple of words
+						if($(this).text().length > (trimLength * trimMargin)) {
+						  var text = $(this).text();
+						  var trimPoint = $(this).text().indexOf(" ", trimLength);
+						  var newContent = text.substring(0, trimPoint)+ '<span class="read-more">' +text.substring(trimPoint)+'</span><span class="toggle">...<a href="#">+</a></span>';
+						  $(this).html(newContent);
+						}
+					  });
+					  $('.toggle a').click(function(e){
+						e.preventDefault();
+						var para = $(this).closest('p');
+						var initialHeight = $(this).closest('p').innerHeight();
+						para.find('.read-more').show();
+						para.find('.toggle').hide();
+						var newHeight = para.innerHeight();
+						para.css('max-height', initialHeight+'px');
+						para.animate({ maxHeight: newHeight }, 300, function(){
+						  para.css('max-height', 'none');
+						});
+					  });
+					});
+					</script>
+					
+					<script>
+						$(document).ready(function() {
+							
+							/* Every time the window is scrolled ... */
+							$(window).scroll( function(){
+							
+								/* Check the location of each desired element */
+								$('.hideme').each( function(i){
+									
+									var bottom_of_object = $(this).offset().top + 200;
+									var bottom_of_window = $(window).scrollTop() + $(window).height();
+									
+									/* If the object is completely visible in the window, fade it it */
+									if( bottom_of_window > bottom_of_object ){
+										
+										$(this).animate({'opacity':'1'},350);
+											
+									}
+									
+								}); 
+							
+							});
+							
+						});
+					</script>
+
+					<!-- <script>
+						const proj1 = document.getElementById('project1');
+						console.log(proj1);
+						const proj2 = document.getElementById('project2');
+						const proj3 = document.getElementById('project3');
+						const text = document.getElementById('text');
+						proj1.addEventListener('click', () => {
+							console.log(proj1);
+						});
+					</script> -->
+			</div>
+    </body>
+</html>

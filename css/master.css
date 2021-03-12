@@ -1,0 +1,95 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html{
+	height:100%;
+}
+
+body {
+		height:100%;
+    	font-family: Verdana,Geneva,sans-serif;
+       font-size: 16px;
+}
+
+#container {
+    	margin: auto;
+		width:960px;
+      	max-width: 100%;
+		 
+}
+
+.container {
+    	margin:auto;;
+		width:80%;
+      	max-width: 100%;	 
+}
+
+/***** Headings *****/
+
+h1, h2, h3, h4, h5, h6{
+	padding-top:0.2em;
+	padding-bottom:0.6em;
+}
+
+h1 {
+font-size:4em;
+}
+ 
+h2 {
+font-size:2em;
+}
+ 
+h3 {
+font-size:1.5em;
+}
+
+strong         { 
+font-weight:bold; 
+}
+
+em       { 
+font-style:italic; 
+}
+
+p{
+	padding-bottom:0.5em;
+}
+ 
+ 
+/***** navigatie *****/
+nav a,
+nav a:link,
+nav a:visited,
+nav a:hover, 
+nav a:active {
+text-decoration:none;
+}
+
+nav ol, nav ul {
+	list-style: none;
+}
+
+
+/***** Global Classes *****/
+.clear         { clear:both; }
+.fl    	{ float:left; }
+.fr   	{ float:right; }
+ 
+.tl    	{ text-align:left; }
+.tr    	{ text-align:right; }
+.tc   	{ text-align:center; }
+.tj  	{ text-align:justify; }
+
+.tl, .tr, .tc, .tj{
+	margin:0% 2% 0% 2%;
+}
+
+.rm{
+	margin-bottom:0%;
+}
+ 
+.onderlijnen     { border-bottom:1px solid; }
+.markeren     { background:#ffc; }
+ 
+.linksfoto    { float:left;margin:4px 10px 4px 0; }
+.rechtsfoto    { float:right;margin:4px 0 4px 10px; }
